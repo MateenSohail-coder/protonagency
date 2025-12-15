@@ -28,7 +28,7 @@ export default function HeroSection() {
 
           {/* Right Logo (animated) */}
           <div className="md:w-1/2 w-full absolute md:relative right-0 top-0 md:top-auto md:right-auto flex justify-center md:justify-end items-center h-full pointer-events-none">
-            <div className="opacity-40 md:opacity-60 animate-logo-float">
+            <div className="opacity-40 md:opacity-60 animate-logo-pulse-scale">
               <Image
                 src="/Logo.png"
                 alt="hero logo"

@@ -54,7 +54,7 @@ export default function Pricing() {
       <section className="px-6 py-16">
         {/* top heading + description, left aligned */}
         <div className="max-w-3xl mb-20">
-          <h1 className="text-4xl md:text-6xl mb-3 font-mono">Pricing</h1>
+          <h1 className="text-4xl md:text-6xl mb-3 font-semibold">Pricing</h1>
           <p className="text-base md:text-lg text-gray-600">
             Clear packages. Transparent deliverables. No hidden complexity.
           </p>

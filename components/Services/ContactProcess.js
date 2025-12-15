@@ -23,7 +23,7 @@ export default function ContactProcess() {
     <section className="min-h-screen flex items-center justify-start px-6  bg-white">
       <div className="w-full max-w-3xl">
         {/* Heading */}
-        <h1 className="text-3xl md:text-5xl font-mono mb-10">
+        <h1 className="text-3xl md:text-5xl font-semibold mb-10">
           Build Your Brand with Proton
         </h1>
 
