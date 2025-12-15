@@ -6,9 +6,9 @@ export default function HeroSection() {
     <>
       <section className="relative bg-[#EEFF00] h-[90vh] md:h-[80vh] text-gray-600 overflow-hidden">
         {/* Content */}
-        <div className="container mx-auto flex justify-between px-6 py-28 md:flex-row flex-col items-center relative z-10">
+        <div className="container mx-auto flex justify-center px-6 py-28 md:flex-row flex-col items-center relative z-10">
           {/* Left */}
-          <div className="md:w-1/2 flex flex-col md:items-start md:text-left gap-8 items-center text-center md:pr-16">
+          <div className="md:w-1/2 flex flex-col md:items-start md:text-left gap-0 items-center text-center md:pr-16">
             <h1 className="title-font font-sans sm:text-6xl text-4xl font-semibold mb-4 text-gray-900">
               Build a Brand
               <br className="hidden lg:inline-block" />
