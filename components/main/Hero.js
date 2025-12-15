@@ -18,7 +18,7 @@ export default function HeroSection() {
             <p className="mb-8 leading-relaxed text-xl max-w-xl">
               <b>Proton</b> creates complete visual identities: logos, branding
               systems, tone of voice, brand universes, and high-end mockups that
-              make your business unforgettable
+              make your business unforgettable.
             </p>
 
             <p className="mb-8 leading-relaxed text-xl max-w-xl font-bold">
@@ -26,36 +26,28 @@ export default function HeroSection() {
             </p>
           </div>
 
-          {/* Right Logo */}
-          <div className="md:w-1/2 w-full absolute md:relative right-0 top-0 md:top-auto md:right-auto md:flex justify-end items-end opacity-20 pointer-events-none flex justify-center items-center h-full">
-            <Image
-              src="/Logo.png"
-              alt="hero logo"
-              width={600}
-              height={600}
-              className="object-contain"
-            />
+          {/* Right Logo (animated) */}
+          <div className="md:w-1/2 w-full absolute md:relative right-0 top-0 md:top-auto md:right-auto flex justify-center md:justify-end items-center h-full pointer-events-none">
+            <div className="opacity-40 md:opacity-60 animate-logo-float">
+              <Image
+                src="/Logo.png"
+                alt="hero logo"
+                width={600}
+                height={600}
+                className="object-contain"
+              />
+            </div>
           </div>
         </div>
       </section>
-
-      {/* Bottom Inverted Curve */}
-      <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none">
+      {/* Bottom center triangle notch - full width */}
+      <div className=" w-full overflow-hidden leading-none">
         <svg
-          viewBox="0 0 1440 100"
-          className="w-full h-[100px]"
+          viewBox="0 0 1200 60"
           preserveAspectRatio="none"
+          className="relative block w-full h-[60px]"
         >
-          <path
-            fill="#EEFF00"
-            d="
-              M0,0
-              L0,40
-              C360,80 1080,80 1440,40
-              L1440,0
-              Z
-            "
-          />
+          <polygon points="0,0 600,60 1200,0 1200,0 0,0" fill="#EEFF00" />
         </svg>
       </div>
     </>
