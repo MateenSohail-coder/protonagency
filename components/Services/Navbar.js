@@ -60,7 +60,7 @@ export default function Navbar() {
           <Link href="/Work" className="border-b border-white/20 pb-2">Work</Link>
 
           {/* Mobile Button */}
-          <Link href="/Contact" className="mt-6 bg-[#EEFF00] text-black py-2 rounded-full text-sm">
+          <Link href="/Contact" className="mt-6 bg-[#EEFF00] flex items-center justify-center font-semibold text-black py-2 rounded-full text-sm">
             Get Started
           </Link>
         </ul>
