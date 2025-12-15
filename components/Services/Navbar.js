@@ -55,14 +55,14 @@ export default function Navbar() {
         </div>
 
         <ul className="flex flex-col gap-8 px-5 mt-10 text-lg">
-          <li className="border-b border-white/20 pb-2">About</li>
-          <li className="border-b border-white/20 pb-2">Pricing</li>
-          <li className="border-b border-white/20 pb-2">Work</li>
+          <Link href="/About" className="border-b border-white/20 pb-2">About</Link>
+          <Link href="/Pricing" className="border-b border-white/20 pb-2">Pricing</Link>
+          <Link href="/Work" className="border-b border-white/20 pb-2">Work</Link>
 
           {/* Mobile Button */}
-          <button className="mt-6 bg-[#EEFF00] text-black py-2 rounded-full text-sm">
+          <Link href="/Contact" className="mt-6 bg-[#EEFF00] text-black py-2 rounded-full text-sm">
             Get Started
-          </button>
+          </Link>
         </ul>
       </div>
     </nav>
