@@ -37,7 +37,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-[#EEFF00] backdrop-blur-sm h-20 px-4 md:px-8 lg:px-12 flex items-center justify-between ">
+    <nav className="bg-[#EEFF00] z-50 fixed top-0 right-0 left-0 backdrop-blur-sm h-20 px-4 md:px-8 lg:px-12 flex items-center justify-between ">
       {/* Logo */}
       <motion.div
         className="relative h-12 w-36 lg:h-14 lg:w-40 cursor-pointer"

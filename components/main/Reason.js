@@ -106,13 +106,14 @@ export default function ReasonsSection() {
               variants={itemVariants}
               custom={index}
             >
-              {/* Icon Container */}
+              {/* Transparent Logo Container */}
               <motion.div
-                className="relative mx-auto w-32 h-32 lg:w-40 lg:h-40 xl:w-48 xl:h-48 mb-8 p-4 lg:p-6 bg-white/20 backdrop-blur-sm rounded-3xl border border-black/10 group-hover:bg-white/30 transition-all duration-700 hover:-translate-y-4 hover:scale-105"
+                className="relative mx-auto w-32 h-32 lg:w-40 lg:h-40 xl:w-48 xl:h-48 mb-8 p-4 lg:p-6 rounded-3xl transition-all duration-700 hover:-translate-y-4 hover:scale-105 "
+                style={{ background: "transparent" }}
                 whileHover={{ rotate: [0, 3, -3, 0] }}
                 transition={{ duration: 0.8 }}
               >
-                <div className="absolute inset-4 lg:inset-6 bg-gradient-to-br from-[#EEFF00]/50 to-[#CCFF00]/30 rounded-2xl blur-xl -z-10 group-hover:scale-110 transition-all duration-700" />
+                <div className="absolute inset-4 lg:inset-6 bg-gradient-to-br from-[#EEFF00]/30 to-[#CCFF00]/20 rounded-2xl blur-xl -z-10 group-hover:scale-110 transition-all duration-700" />
                 <Image
                   src={reason.icon}
                   alt={reason.title}

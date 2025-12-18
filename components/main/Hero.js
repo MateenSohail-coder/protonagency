@@ -70,7 +70,7 @@ export default function HeroSection() {
               className="w-full text-center lg:text-left"
             >
               <motion.h1
-                className="font-black tracking-tight text-gray-900 text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl leading-tight lg:leading-[0.88] max-w-full break-words"
+                className="font-black tracking-tight font-iner text-gray-900 text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl leading-tight lg:leading-[0.88] max-w-full break-words"
                 initial={{ opacity: 0, y: 30 }}
                 animate={isInView ? "visible" : "hidden"}
                 variants={{
@@ -98,7 +98,7 @@ export default function HeroSection() {
               <span className="font-black text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-3xl text-gray-900 block mb-1 sm:mb-2">
                 Proton
               </span>
-              creates complete visual identities: logos, branding systems, tone
+              Creates complete visual identities: logos, branding systems, tone
               of voice, brand universes, and high-end mockups that make your
               business unforgettable.
             </motion.p>

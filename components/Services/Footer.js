@@ -26,7 +26,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-gradient-to-br from-[#EEFF00] to-[#CCFF00] border-t-4 border-black/10 px-6 md:px-12 py-12 md:py-16 relative overflow-hidden">
+    <footer className="bg-[#EEFF00] border-t-4 border-black/10 px-6 md:px-12 py-12 md:py-16 relative overflow-hidden">
       <motion.div
         className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-0"
         initial="hidden"

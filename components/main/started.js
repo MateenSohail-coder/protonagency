@@ -63,7 +63,7 @@ export default function GetStartedSection() {
             <motion.div
               key={item.des}
               variants={itemVariants}
-              className="group relative w-72 h-32 lg:w-80 lg:h-36 xl:w-96 xl:h-40 bg-gradient-to-br from-[#EEFF00] to-[#CCFF00] border-4 border-black/10 p-8 lg:p-10 xl:p-12 rounded-3xl flex items-center justify-center text-center transition-all duration-700 hover:-translate-y-4 hover:scale-105 hover:border-black/20 hover:shadow-2xl hover:shadow-[#EEFF00]/30"
+              className="group relative w-72 h-32 lg:w-80 lg:h-36 xl:w-96 xl:h-40 bg-[#EEFF00]  border-4 border-black/10 p-8 lg:p-10 xl:p-12 rounded-3xl flex items-center justify-center text-center transition-all duration-700 hover:-translate-y-4 hover:scale-105 hover:border-black/20 hover:shadow-2xl hover:shadow-[#EEFF00]/30"
             >
               {/* Decorative Glow */}
               <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-700" />

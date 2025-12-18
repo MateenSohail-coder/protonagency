@@ -59,7 +59,7 @@ export default function Contact() {
       {/* PERFECT Side-by-Side 50/50 - Mobile & Desktop */}
       <section className="px-4 sm:px-6 lg:px-12 xl:px-24 py-16 lg:py-24">
         <motion.div
-          className="w-full max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 bg-gradient-to-r from-[#EEFF00] to-[#CCFF00] rounded-3xl overflow-hidden shadow-2xl border border-black/10"
+          className="w-full max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 bg-[#EEFF00]  rounded-3xl overflow-hidden shadow-2xl border border-black/10"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-100px" }}

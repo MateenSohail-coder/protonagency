@@ -79,7 +79,7 @@ export default function ServicesSection() {
         {services.map((service, index) => (
           <motion.div
             key={service.title}
-            className="group relative bg-gradient-to-br from-[#EEFF00] to-[#CCFF00] border-2 border-black/10 p-8 lg:p-10 rounded-2xl transition-all duration-500 hover:-translate-y-2 hover:border-black/20"
+            className="group relative  bg-[#EEFF00]  border-2 border-black/10 p-8 lg:p-10 rounded-2xl transition-all duration-500 hover:-translate-y-2 hover:border-black/20"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: "-100px" }}
