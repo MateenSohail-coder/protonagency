@@ -6,27 +6,27 @@ import { motion } from "framer-motion";
 export default function ServicesSection() {
   const services = [
     {
-      title: "Logo Design",
+      title: "➤ Logo Design",
       description:
         "Distinct marks built to scale across screens, packaging, and print.",
     },
     {
-      title: "Brand Identity Systems",
+      title: "➤ Brand Identity Systems",
       description:
         "Color palettes, typography, spacing systems, iconography, and guidelines that keep your brand consistent everywhere.",
     },
     {
-      title: "Brand Universe & Visual Direction",
+      title: "➤ Brand Universe & Visual Direction",
       description:
         "Moodboards, style direction, and storytelling that define how your brand feels and communicates.",
     },
     {
-      title: "Tone of Voice & Messaging",
+      title: "➤Tone of Voice & Messaging",
       description:
         "Clear, consistent language for websites, ads, social posts, and internal communication.",
     },
     {
-      title: "Mockups & Brand Kits",
+      title: "➤Mockups & Brand Kits",
       description:
         "Realistic product mockups, social templates, and ready-to-use assets.",
     },
@@ -94,7 +94,6 @@ export default function ServicesSection() {
             <div className="relative z-10">
               {/* Compact Title */}
               <div className="flex items-start gap-4 mb-4 group-hover:translate-x-3 transition-all duration-500">
-                <div className="flex-shrink-0 w-3 h-3 mt-1.5 bg-black rounded-full" />
                 <h3 className="text-2xl lg:text-3xl font-bold text-gray-900 leading-tight">
                   {service.title}
                 </h3>
